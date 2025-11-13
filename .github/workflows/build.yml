@@ -69,7 +69,7 @@ jobs:
             linuxdeploy_qt_hash: "15106be885c1c48a021198e7e1e9a48ce9d02a86dd0a1848f00bdbf3c1c92724  linuxdeploy-plugin-qt-x86_64.AppImage"
             appimageupdate_hash: "f1747cf60058e99f1bb9099ee9787d16c10241313b7acec81810ea1b1e568c11  AppImageUpdate-x86_64.AppImage"
 
-          - os: windows-2022
+          - os: self-hosted
             name: "Windows-MinGW-w64"
             msystem: clang64
             vcvars_arch: "amd64_x86"
